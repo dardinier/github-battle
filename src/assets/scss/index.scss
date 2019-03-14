@@ -1,0 +1,41 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.repository {
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    &__img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.menu {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+
+    li {
+        margin: 0 1rem;
+    }
+}
+
+.player-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img {
+        height: 200px;
+        width: 200px;
+    }
+}
